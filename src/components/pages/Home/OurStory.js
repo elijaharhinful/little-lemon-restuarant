@@ -7,7 +7,7 @@ const OurStory = () => {
     <section className="container grid our-story">
       <div className="our-story-description">
         <h1>Little Lemon</h1>
-        <h2>Chicago</h2>
+        <h2>Kampala</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
           eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -25,8 +25,8 @@ const OurStory = () => {
         </p>
       </div>
       <div className="our-story-chefs">
-        <img src={chefsMarioAndAdrianAImage} alt="Chefs Mario and Adrian" />
-        <img src={chefsMarioAndAdrianBImage} alt="Chefs Mario and Adrian" />
+        <img src={chefsMarioAndAdrianAImage} alt="Chefs Yunus and Danny" />
+        <img src={chefsMarioAndAdrianBImage} alt="Chefs Yunus and Danny" />
       </div>
     </section>
   );

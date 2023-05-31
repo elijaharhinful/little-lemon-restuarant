@@ -59,6 +59,10 @@
   margin-left: 0.5rem;
 }
 
+.meal-card-body-footer a:hover , .meal-card-body-footer svg:hover{
+  color: #F4CE14;
+}
+
 /*-- Media queries ------------------------------------------------------*/
 
 @media (max-width: 960px) {
