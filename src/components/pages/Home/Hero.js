@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import restaurantFoodImage from './assets/restaurant-food.jpg';
+import restaurantFoodImage from './assets/restaurant-food.jpeg';
 import './Hero.css';
 import pages from '../../../utils/pages';
 

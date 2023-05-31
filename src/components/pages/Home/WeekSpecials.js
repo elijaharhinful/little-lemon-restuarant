@@ -1,33 +1,29 @@
 import { Link } from 'react-router-dom';
-import bruschettaImage from './assets/bruschetta.jpg';
-import greekSaladImage from './assets/greek-salad.jpg';
-import lemonDessertImage from './assets/lemon-dessert.jpg';
+import matokeImage from './assets/matoke.jpg';
+import chapatiImage from './assets/chapati.png';
+import tescoImage from './assets/tesco.jpg';
 import './WeekSpecials.css';
 import pages from '../../../utils/pages';
 import MealCard from './MealCard';
 
 const meals = [
   {
-    name: 'Greek Salad',
-    image: greekSaladImage,
-    price: '$12.99',
-    description: `The famous greek salad of crispy lettuce, peppers, olives and 
-      our Chicago style feta cheese, garnished with crunchy garlic and rosemary 
-      croutons.`,
+    name: 'Chapati',
+    image: chapatiImage,
+    price: '$10.99',
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
-    name: 'Bruschetta',
-    image: bruschettaImage,
-    price: '$5.99',
-    description: `Our Bruschetta is made from grilled bread that has been 
-      smeared with garlic and seasoned with salt and olive oil.`,
+    name: 'Matoke',
+    image: matokeImage,
+    price: '$15.99',
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
-    name: 'Lemon Dessert',
-    image: lemonDessertImage,
-    price: '$5.00',
-    description: `This comes straight from grandma's recipe book, every last 
-      ingredient has been sourced and is as authentic as can be imagined.`,
+    name: 'Chocolate Dessert',
+    image: tescoImage,
+    price: '$4.99',
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
 ];
 
